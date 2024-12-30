@@ -16,8 +16,8 @@ public class Client {
 
             // Sunucuya mesaj gönderiyoruz
             out.println("Hello from client!");
-
-            // Sunucudan gelen yanıtı okuyoruz
+                                                                    //fork ve pull request denemesi
+            // Sunucudan gelen yanıtı okuyoruz      
             String response = in.readLine();
             System.out.println("Server says: " + response);
 
